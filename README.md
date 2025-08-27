@@ -1,5 +1,5 @@
 # Efficient Robotic Policy Learning via Latent Space Backward Planning
-[[Website](https://dstate.github.io/LBP/)]  [[Paper](https://www.arxiv.org/pdf/2505.06861)]
+[[Website](https://lbp-authors.github.io/)]  [[Paper](https://www.arxiv.org/pdf/2505.06861)]
 
 🔥 **LBP has been accepted by ICML 2025**
 
