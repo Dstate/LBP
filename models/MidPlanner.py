@@ -52,8 +52,8 @@ class DnceLatentProj(nn.Module):
         if latent_info_file is not None:
             with open(latent_info_file, "rb") as f:
                 data = pickle.load(f)
-            img_mean = torch.tensor(data['img_latents_dnce']['image0']['mean'])
-            img_std = torch.tensor(data['img_latents_dnce']['image0']['std'])
+            img_mean = torch.tensor(data['mean'])
+            img_std = torch.tensor(data['std'])
         else :
             img_mean = torch.zeros(1024)
             img_std = torch.ones(1024)
