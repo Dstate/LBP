@@ -68,10 +68,10 @@ class LBPPolicy(nn.Module):
         self.loss_func = loss_func(**loss_func_conig)
 
     def forward_cond(self, cur_images, instruction):
-        planned_subogals, details = self.imaginator.generate(cur_images, instruction, self.recursive_step)
+        planned_subgoals, details = self.imaginator.generate(cur_images, instruction, self.recursive_step)
         lang_embeding = details['lang_latent']
         cur_query = details['img_latent']
-        fused_goal = self.goal_fusion(cur_query.unsqueeze(1), planned_subogals).squeeze(1)
+        fused_goal = self.goal_fusion(cur_query.unsqueeze(1), planned_subgoals).squeeze(1)
         return lang_embeding, fused_goal
 
     def forward_obs(self, cur_images, cur_proprios, conditions, fused_goal):
