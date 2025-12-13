@@ -85,9 +85,9 @@ python eval_libero.py
 If the paper or the codebase is helpful with your research, please cite it as:
 ```
 @inproceedings{liu-niu2025lbp,
-  title     = {Efficient Robotic Policy Learning via Latent Space Backward Planning},
-  author    = {Liu, Dongxiu and Niu, Haoyi and Wang, Zhihao and Zheng, Jinliang and Zheng, Yinan and Ou, Zhonghong and Hu, Jianming and Li, Jianxiong and Zhan, Xianyuan},
-  booktitle = {Proceedings of the International Conference on Machine Learning},
+  title={Efficient Robotic Policy Learning via Latent Space Backward Planning},
+  author={Liu, Dongxiu and Niu, Haoyi and Wang, Zhihao and Zheng, Jinliang and Zheng, Yinan and Ou, Zhonghong and HU, Jianming and Li, Jianxiong and Zhan, Xianyuan},
+  booktitle={Forty-second International Conference on Machine Learning},
   year      = {2025}
 }
 ```
