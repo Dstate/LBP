@@ -82,7 +82,7 @@ python eval_libero.py
 ```
 
 ## Citation
-If the paper or the codebase is helpful with your research, please cite it as:
+If you find this project useful in your research, please cite it as:
 ```
 @inproceedings{liu-niu2025lbp,
   title={Efficient Robotic Policy Learning via Latent Space Backward Planning},
